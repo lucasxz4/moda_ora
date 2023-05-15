@@ -1,0 +1,118 @@
+@media screen and (min-width: 1200px) {
+    #about {
+        width: 80%;
+        margin: 60px auto;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .cabecalho li {
+        font-size: 12px;
+    }
+
+    .models {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .cabecalho li {
+        white-space: nowrap;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    header {
+        height: 400px;
+        background-image: url(../images/mobile2.jpg);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-bottom: 100px;
+    }
+
+    .cabecalho {
+        justify-content: center;
+        flex-direction: column;
+        position: static;
+    }
+
+    .cabecalho h1 {
+        color: #fff;
+        padding-left: 10px;
+        font-family: 'Poppins';
+        font-size: 2rem;
+        padding-bottom: 10px;
+    }
+
+    .cabecalho ul {
+        justify-content: space-around;
+    }
+
+    .cabecalho li a {
+        font-size: 1rem;
+    }
+
+    picture {
+        display: none;
+    }
+
+    
+    #port {
+        padding: 0px;
+        margin: 40px 10px;
+    }
+    
+    #port h1 {
+        font-size: 1.5rem;
+    }
+    
+    #port h1 span {
+        font-size: 2.7rem;
+    }
+    
+    #port .principal {
+        text-indent: 25px;
+        font-size: 1rem;
+        word-spacing: 0px;
+        margin: 0;
+        padding: 0px 10px;
+        text-align: justify;
+    }
+    
+    #about {
+        padding: none;
+        margin: 40px 10px;
+    }
+    
+    #about h1 {
+        font-size: 1.6rem;
+    }
+    
+    #about p {
+        letter-spacing: none;
+        font-size: 1rem;
+        padding: 0px 10px;
+        word-spacing: 0px;
+        text-indent: 25px;
+    }
+
+    #contato {
+        width: 100%;
+        
+        padding: 0;
+    }
+
+    #contato fieldset {
+        font-size: 1rem;
+    }
+
+    #contato i {
+        font-size: 1.2rem;
+        letter-spacing: none;
+    }
+
+    #contato a {
+        font-size: 1rem;
+    }
+}
